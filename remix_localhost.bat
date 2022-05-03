@@ -1,0 +1,1 @@
+remixd -s %CD% -u https://remix.ethereum.org

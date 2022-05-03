@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "myString",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"IntegerExample.sol": "Integ"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"IntegerExample.sol": {
+			"keccak256": "0xc59c89dafa884b7810acfd2718e2d33ade405621d54139b0d39f939d77b82c65",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://f979cce4dad0d6be52568858fe73d85d3c935b00a2b436adb7ba5ebaa49c80b6",
+				"dweb:/ipfs/QmTv2kd4s9MG9bQsQLwAyb38z4HejY4M7haaEFfFDgQCbC"
+			]
+		}
+	},
+	"version": 1
+}

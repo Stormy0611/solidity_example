@@ -1,0 +1,73 @@
+{
+	"compiler": {
+		"version": "0.8.1+commit.df193b15"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "_to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
+					}
+				],
+				"name": "withdrawMoney",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/02_simple/SharedWallet.sol": "SharedWallet"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/02_simple/SharedWallet.sol": {
+			"keccak256": "0x760c5cea383815edfabe6805c421a4bcb3efc1e8a2269f3597c4f586cdc46f7d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8540de30150d8067cf03671abdba55c64dbf7812ddcf9a47827efda927e11081",
+				"dweb:/ipfs/QmcwieirzyU5LQS2n3g9JzeFiMpveTkKvHQz7NDGbr4CVM"
+			]
+		}
+	},
+	"version": 1
+}

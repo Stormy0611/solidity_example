@@ -1,0 +1,79 @@
+{
+	"compiler": {
+		"version": "0.8.1+commit.df193b15"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getChoice",
+				"outputs": [
+					{
+						"internalType": "enum test.FreshJuiceSize",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getDefaultChoice",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "setLarge",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"AllExample.sol": "test"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"AllExample.sol": {
+			"keccak256": "0xaaae94ac6b9841a518b8afb2a4a1ae1e1c1e6c785a889fd10f65e4c871636924",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://367151564df2030fb1852df2ccb889ac8385d77bc0a490eefc13719a446b79bd",
+				"dweb:/ipfs/QmdG3MvozKH5n9oaxw2mCe5HeoZdy1vf8pBNTuRFg8ZJWt"
+			]
+		}
+	},
+	"version": 1
+}

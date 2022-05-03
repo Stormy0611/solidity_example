@@ -1,0 +1,90 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "balanceReceived",
+				"outputs": [
+					{
+						"internalType": "uint64",
+						"name": "",
+						"type": "uint64"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "receiveMoney",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "_to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint64",
+						"name": "_amount",
+						"type": "uint64"
+					}
+				],
+				"name": "withdrawMoney",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ExceptionExample.sol": "ExceptionExample"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ExceptionExample.sol": {
+			"keccak256": "0xc204b6823999d381bb1b7ff91724e7ec64c94ba73d05466b6fc243bfe62cfb39",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://aa7575d12b58cd0cff092b2e8dbb76392ddbf0121359d6dbf9e1a730a73d21f1",
+				"dweb:/ipfs/QmUA3NgVpp9Ft6E1eMAPHmwmZqXNiE813dWZrKweA1dhsH"
+			]
+		}
+	},
+	"version": 1
+}

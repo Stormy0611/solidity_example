@@ -1,0 +1,71 @@
+{
+	"compiler": {
+		"version": "0.8.1+commit.df193b15"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "getGlobalVal",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getLocalVal",
+				"outputs": [],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"AllExample.sol": "AllExample"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"AllExample.sol": {
+			"keccak256": "0xa1870f84ee5d29171152db9f98710857c0bc45099df6201569ae5c243143fc3b",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://52755535e19bd423d502563f6a6d7cf4d5160620a74757a0c5686d54b061b403",
+				"dweb:/ipfs/QmdBqbukDkuE86y6NaWDLrajsEf6MNK3GWk7ASKdBckfRW"
+			]
+		}
+	},
+	"version": 1
+}
