@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.1+commit.df193b15"
+		"version": "0.8.13+commit.abaa5c0e"
 	},
 	"language": "Solidity",
 	"output": {
@@ -185,9 +185,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/02_simple/SharedWallet.sol": "Allowance"
+			"contracts/02_SharedWallet/Allowance.sol": "Allowance"
 		},
-		"evmVersion": "istanbul",
+		"evmVersion": "london",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -199,12 +199,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/02_simple/SharedWallet.sol": {
-			"keccak256": "0x56ee3989c16a5e373739c7512374bda5dc5559e8e0ef92fc6d58e2f42e4e53c1",
+		"contracts/02_SharedWallet/Allowance.sol": {
+			"keccak256": "0xee7cc72566023beb4b3e4fbeab7c9a98828ac739390ac646bc75e82cfa252cdd",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://9f930c49fbc5257e2dd75d81f3f4a8fd77c7accc71fabc653f527ccca75ef680",
-				"dweb:/ipfs/QmR7HjFsu9C1neJNsMKa7LQQk7QZk61rqxLwFrivntPwrN"
+				"bzz-raw://d86a25ea381661bc167a2d8840b2624824c6917542b17dbc5b9b55d9d882a989",
+				"dweb:/ipfs/QmZDG4r8WgmxbjAA1CwZwqWzcJjAn6onzygjf13KAsJD98"
 			]
 		},
 		"https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/Ownable.sol": {
