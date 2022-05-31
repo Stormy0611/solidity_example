@@ -1,0 +1,120 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "contract ItemManager",
+						"name": "_parentContract",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_priceInWei",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_index",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"stateMutability": "nonpayable",
+				"type": "fallback"
+			},
+			{
+				"inputs": [],
+				"name": "index",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "paidWei",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "priceInWei",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/03_SimpleProject/Item.sol": "Item"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/03_SimpleProject/Item.sol": {
+			"keccak256": "0xcaebcbfd79124a35dc227fcb25104c910be98d42673557fdc695752d219c96c0",
+			"urls": [
+				"bzz-raw://96a539b3ef165fa4bc2c84fd81adbc7a76f8ba59e0001c954bd49e6385b42fc8",
+				"dweb:/ipfs/QmNgLGy9xDtqnYWHBNozV9o6oyLKCJNsVHYv9kS8t2dzf6"
+			]
+		},
+		"contracts/03_SimpleProject/ItemManager.sol": {
+			"keccak256": "0xfd6242e6d8514cbc7512116cfc10c134220b1c681cd46b47b446f0954cb63525",
+			"urls": [
+				"bzz-raw://ae4412ea6874f10c7a99cbc1829f4f37c447cd52a36793a088c485ebf4ffebd0",
+				"dweb:/ipfs/QmX4CJyRdAzJvDJLUiSNR3spd5p2YkMn1qj3Zg9YaXSLZy"
+			]
+		}
+	},
+	"version": 1
+}
